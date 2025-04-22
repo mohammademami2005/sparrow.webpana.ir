@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sparrow | Look like an expert right from the start</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/apple-touch-icon.png">
+
+
+    <!-- tailwind cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+
+  <body class="selection:bg-red-600 selection:text-white overflow-x-hidden relative">
+    <!------------------- header-----------------  -->
+    <header class="w-screen fixed z-10 lg:top-0  ">
+      <!-- section in header for logo and buttons  -->
+      <div
+        class="w-full h-12 flex justify-between items-center  lg:w-16 lg:h-screen  lg:flex lg:flex-col lg:justify-between lg:items-center"
+      >
+        <!-- logo  -->
+        <figure class="w-14 h-full lg:w-a lg:h-14">
+          <a href="" class="w-full h-full flex justify-center items-center">
+            <img
+              class="h-6/12 lg:h-8 object-cover"
+              src="assets/images/logo-sparrow-invert.svg"
+              alt=""
+            />
+          </a>
+        </figure>
+        <!-- end logo  -->
+
+        <!-- header buttons  -->
+        <div
+          class="w-5/12 h-full flex justify-evenly items-center lg:w-full lg:flex-col lg:justify-start relative"
+        >
+          <i
+            class="fab fa-twitter flex justify-center items-center text-white text-lg lg:order-2 lg:h-2 lg:cursor-pointer"
+          ></i>
+          <button class="w-1/4 h-full text-gray-50 lg:h-2/12 lg:order-10">
+            EN
+          </button>
+          <button
+            id="hamburgerMenu"
+            class="flex flex-col justify-center gap-1 items-center h-full w-1/5 lg:order-1 lg:w-8"
+          >
+            <img class="w-full h-1/2 lg:h-auto" src="assets/images/team/image.png" alt="" id="img" />
+          </button>
+        </div>
+        <!-- end header buttons  -->
+      </div>
+      <!-- end  section in header for logo and buttons -->
+
+      <nav class="w-full fixed lg:w-1/2">
+        <ul class="w-full h-auto flex flex-col items-start">
+          <li class=" ">
+            <button>
+              homes
+              <svg
+                class="w-6 h-6 text-gray-800 dark:text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 8"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"
+                />
+              </svg>
+            </button>
+            <ul class="homesChilds">
+              <li><a href=""> Default </a></li>
+              <li><a href=""> Bicycle </a></li>
+              <li><a href=""> Bigcartel </a></li>
+              <li><a href=""> Cafe </a></li>
+              <li><a href=""> Digital </a></li>
+              <li><a href=""> Ecommerce </a></li>
+              <li><a href=""> Event </a></li>
+              <li><a href=""> Interior </a></li>
+              <li><a href=""> Landing </a></li>
+              <li><a href=""> Promotion </a></li>
+              <li><a href=""> Software </a></li>
+              <li><a href=""> Studio </a></li>
+            </ul>
+          </li>
+          <li>
+            <button class="">
+              pages
+              <svg
+                class="w-6 h-6 text-gray-800 dark:text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 8"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"
+                />
+              </svg>
+            </button>
+            <ul class="">
+              <li><a href="">404</a></li>
+              <li><a href="">about</a></li>
+              <li><a href="">blog</a></li>
+              <li><a href="">blog single</a></li>
+              <li><a href="">cart</a></li>
+              <li><a href="">casestudy</a></li>
+              <li><a href="">coming soon</a></li>
+              <li><a href="">contact</a></li>
+              <li><a href="">one page</a></li>
+              <li><a href="">portfolio</a></li>
+              <li><a href="">profile</a></li>
+              <li><a href="">RTL</a></li>
+              <li><a href="">service</a></li>
+              <li><a href="">shop</a></li>
+              <li><a href="">signin</a></li>
+              <li><a href="">signup</a></li>
+              <li><a href="">product single</a></li>
+              <li><a href="">split static</a></li>
+              <li><a href="">split youtube</a></li>
+              <li><a href="">starter</a></li>
+            </ul>
+          </li>
+          <li>
+            <button>
+              components
+              <svg
+                class="w-6 h-6 text-gray-800 dark:text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 8"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"
+                />
+              </svg>
+            </button>
+            <ul
+              class="lg:flex lg:flex-wrap lg:flex-col lg:justify-center lg:content-between"
+            >
+              <li class="font-bold colorWhite">SPARROW</li>
+
+              <li><a href=""> Accordion </a></li>
+              <li><a href=""> Anchor </a></li>
+              <li><a href=""> Backgrounds </a></li>
+              <li><a href=""> Borders </a></li>
+              <li><a href=""> Carousel </a></li>
+              <li><a href=""> Colors </a></li>
+              <li><a href=""> Cookie notice </a></li>
+              <li><a href=""> Countdown </a></li>
+              <li><a href=""> Countup </a></li>
+              <li><a href=""> Fancynav </a></li>
+              <li><a href=""> Filter </a></li>
+              <li><a href=""> Googlemap </a></li>
+              <li><a href=""> Icons </a></li>
+              <li><a href=""> Inline player </a></li>
+              <li><a href=""> Lightbox </a></li>
+              <li><a href=""> Masonry </a></li>
+              <li><a href=""> Parallax </a></li>
+              <li><a href=""> Progressbar </a></li>
+              <li><a href=""> Spacing </a></li>
+              <li><a href=""> Typed text </a></li>
+              <li><a href=""> Typography </a></li>
+              <li><a href=""> Zanimation </a></li>
+
+              <li class="font-bold colorWhite">Bootstrap</li>
+
+              <li><a href=""> Badges </a></li>
+              <li><a href=""> Buttons </a></li>
+              <li><a href=""> Cards </a></li>
+              <li><a href=""> Forms </a></li>
+              <li><a href=""> Modals </a></li>
+              <li><a href=""> Navbar </a></li>
+              <li><a href=""> Scrollspy </a></li>
+              <li><a href=""> Sizing </a></li>
+              <li><a href=""> Tables </a></li>
+              <li><a href=""> Tabs </a></li>
+              <li><a href=""> Tooltips </a></li>
+            </ul>
+          </li>
+          <li>
+            <button>
+              documentation
+              <svg
+                class="w-6 h-6 text-gray-800 dark:text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 8"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"
+                />
+              </svg>
+            </button>
+            <ul class="">
+              <li><a href=""> Getting started </a></li>
+              <li><a href=""> File structure </a></li>
+              <li><a href=""> Customization </a></li>
+              <li><a href=""> Gulp </a></li>
+              <li><a href=""> RTL </a></li>
+              <li><a href=""> Plugins </a></li>
+              <li><a href=""> Changelog </a></li>
+            </ul>
+          </li>
+          <li>
+            <button>
+              <a href="#">portfolio</a>
+              <!-- <svg
+                class="w-6 h-6 text-gray-800 dark:text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 8"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"
+                />
+              </svg> -->
+            </button>
+          </li>
+          <li>
+            <button>
+              <a href="#"> contact</a>
+              <!-- <svg
+                class="w-6 h-6 text-gray-800 dark:text-white"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 8"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"
+                />
+              </svg> -->
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!------------ header end --------------->
+
+    <!------------------- main section ---------------------->
+    <main class=" ">
+      <!------------ home section  ---------------------->
+      <section
+        class="w-screen lg:w-screen h-screen md:h-auto pt-96 lg:pt-28 flex justify-center flex-col items-center"
+      >
+        <!-- youtube video iframe start -->
+        <div
+          class="w-12/12 h-5/12 bg-true-gray-900 lg:h-11/12 lg:w-4/12 lg:mt-12"
+        >
+          <!-- <iframe class="w-full h-full" id="youtube-6908" frameborder="0" style="border-radius: 4px" allowfullscreen=""
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          title="Player for View From A Blue Moon - Official Trailer (4K Ultra HD) - John Florence"
+          src="https://www.youtube.com/embed/bTqVqk7FSmY?si=5QcYQM94oGj2Bvw12">
+        </iframe> -->
+          <div class="w-full h-full iframe iframeShow" id="47144629667">
+            <script
+              type="text/JavaScript"
+              src="https://www.aparat.com/embed/hyo30iw?data[rnddiv]=47144629667&data[responsive]=yes&muted=true&titleShow=true&autoplay=true"
+            ></script>
+          </div>
+        </div>
+        <!-- youtube video iframe end -->
+
+        <!-- title and description start -->
+        <div
+          class="w-11/12  flex  justify-center  flex-wrap items-center lg:h-9/12 lg:w-6/12"
+        >
+          <h1 class="text-4xl font-semibold w-full text-center">
+            welcome to
+            <span
+              class="text-xl font-medium italic block lg:inline text-center font-bold italic font-4xl"
+              id="span"
+            ></span>
+          </h1>
+          <p class="text-center px-8 text-gray-500 font-semibold mb-4">
+            The platform for your ideas, your team, your projects, your
+            business.
+          </p>
+          <button
+            class="w-2/6 h-10 flex justify-center items-center font-semibold border-1 border-black rounded-full capitalize"
+          >
+            boy now
+          </button>
+        </div>
+        <!-- title and description end -->
+      </section>
+      <!------------ home section end  ---------------------->
+
+      <!------------ portfolio section  ---------------------->
+      <section class="">
+        <div class="flex flex-col items-center">
+          <!-- division image and descriptoin 1 -->
+          <div class="">
+            <figure class="">
+              <img class="" src="assets/images/team/12.jpg" alt="" />
+            </figure>
+            <div class="animateFromTop">
+              <p>
+                Sparrow helped me transform my hobby into a successful online
+                business. Their products enabled me to focus on creating
+                top-notch solutions for my clients.
+              </p>
+              <span>Black Beard</span>
+              <span>Feast Design Company</span>
+            </div>
+          </div>
+
+          <!-- division image and descriptoin 2 -->
+          <div class="">
+            <figure class="lg:order-2">
+              <img class="" src="assets/images/team/10.jpg" alt="" />
+            </figure>
+            <div class="animateFromBottom">
+              <p>
+                Sparrow blends together the best elements. It offers the power
+                of bootstrap with useful extensions, and includes the most
+                elegant typographic features—which makes developers like me
+                incredibly happy.
+              </p>
+              <span>Rebecca Gill</span>
+              <span>Web Savvy Marketing</span>
+            </div>
+          </div>
+
+          <!-- division image and descriptoin 3 -->
+          <div class="">
+            <figure class="">
+              <img class="" src="assets/images/team/11.jpg" alt="" />
+            </figure>
+            <div class="animateFromLeft">
+              <p>
+                The team behind sparrow sure know what they are doing! If you’re
+                looking for managed hosting you’ll find a stable, secure and
+                well optimized option in sparrow Sites.
+              </p>
+              <span>Lisa Hannigan</span>
+              <span>Problogger</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!---------------------- portfolio se --------------------ction end  ---------------------->
+
+      <!---------------------- cards-------------------- section  ---------------------->
+      <section class="pt-1">
+        <figure class="animateFromLeft w-screen">
+          <img
+            class="w-full object-cover"
+            src="assets/images/cards/01.jpg"
+            alt=""
+          />
+          <h3>The Power of Simplicity</h3>
+          <figcaption>
+            Start simple. When you use a tool, you should be able to understand
+            it from the first moment. With sparrow you manage any web design
+            project intuitively.
+          </figcaption>
+        </figure>
+        <figure class="animateFromTop">
+          <img class="w-full" src="assets/images/cards/02.jpg" alt="" />
+          <h3>The Power of Choice</h3>
+          <figcaption>
+            The ability to switch perspective lets you see clearly, and to know
+            where to take the next step. With sparrow, you can work on a
+            portfolio, business website, or shop.
+          </figcaption>
+        </figure>
+        <figure class="animateFromBottom">
+          <img src="assets/images/cards/03.jpg" alt="" />
+          <h3>The Power of Growth</h3>
+          <figcaption>
+            We all grow and evolve, and our environment and tools should grow
+            with us. A system switch can be a very expensive and risky
+            undertaking. Sparrow can give you almost unlimited support in your
+            structures and processes.
+          </figcaption>
+        </figure>
+        <figure class="animateFromTop">
+          <img src="assets/images/cards/04.jpg" alt="" />
+          <h3>The Power of Synergy</h3>
+          <figcaption>
+            Everything is connected. Wherever you have related sections stored
+            in separate pages, you lose control over the design. With sparrow
+            you can easily join any section to create a simple, yet powerful
+            website.
+          </figcaption>
+        </figure>
+      </section>
+      <!---------------------- cards section end  ---------------------->
+
+      <!---------------------- Introduction section--------------- ---------------------->
+      <section>
+        <!--------/description----------- -->
+        <div class="w-screen flex flex-col justify-center">
+          <h3 class="text-2xl font-semibold animateFromBottom">
+            The Power of Now: Start immediately.
+          </h3>
+          <p class="text-gray-500 font-normal w-full animateFromBottom">
+            No CSS is required for controlling layouts, colors, and typography.
+          </p>
+        </div>
+        <button
+          class="animateFromBottom rounded-2xl bg-black text-white w-1/4 flex justify-center items-center h-11 opacityShow"
+        >
+          join use today
+        </button>
+        <!-- --------/description end----------- -->
+      </section>
+      <!---------------------- Introduction section end--------------- ---------------------->
+    </main>
+    <!------------------- main section end ---------------------->
+
+    <!------------------- footer section ---------------------->
+    <footer>
+      <!------------------- footer div 1 ---------------------->
+      <div>
+        <!-- parent ul_footer  -->
+        <ul
+          class="animateFromBottom flex flex-col justify-between items-center md:flex-row md:justify-center md:items-start"
+        >
+          <li>
+            <ul>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Newsroom</a></li>
+              <li><a href="#">Press Kit</a></li>
+              <li><a href="#">Academy</a></li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Apps</a></li>
+              <li><a href="#">Integration</a></li>
+              <li><a href="#">For Enterprises</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Alternatives</a></li>
+            </ul>
+          </li>
+          <li>
+            <ul class="">
+              <li><a href="#">Customer Services</a></li>
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">Tutorials</a></li>
+              <li><a href="#">Templates</a></li>
+              <li><a href="#">Newsletter</a></li>
+              <li><a href="#">Use Cases</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- icon box  -->
+        <div class="flex justify-center items-center">
+          <div class="flex justify-between items-center w-1/4 lg:w-1/6">
+            <a href="">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+        <!-- icon box end -->
+
+        <!-- parent ul_footer end  -->
+      </div>
+      <!-- --------------footer div 1 end ---------------- -->
+
+      <!------------------- footer div 2 ---------------------->
+      <div class="flex flex-col justify-center items-center md:flex-row h-40">
+        <div class="w-1/3 h-14 lg:w-2/6 order-last md:order-none">
+          Copyright © 2025 Sparrow™ inc.
+        </div>
+        <div class="w-1/3 h-14 lg:w-1/6">
+          <button id="goToTop">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <div class="w-1/3 h-12 lg:w-3/6 order-2 md:order-none">
+          made with love by <a href="http://webpana.ir/">mohammad emami</a>
+        </div>
+      </div>
+      <!------------------- footer div 2 end ---------------------->
+    </footer>
+    <!------------------- footer section end ---------------------->
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

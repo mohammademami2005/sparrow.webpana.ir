@@ -1,0 +1,5 @@
+<svg class="fancynavbar-toggler-icon" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg" data-zanim-lg="{&quot;from&quot;:{&quot;opacity&quot;:0,&quot;x&quot;:45},&quot;to&quot;:{&quot;opacity&quot;:1,&quot;x&quot;:0},&quot;ease&quot;:&quot;CubicBezier&quot;,&quot;duration&quot;:0.8,&quot;delay&quot;:0.5}" style="transform: translate(0px, 0px); opacity: 1;">
+            <path id="path-top" d="M20,25c0,0,22,0,30,0c16,0,18.89,40.71-.15,21.75C38.7,35.65,19.9,16.8,19.9,16.8" style="stroke-dasharray: 30px, 88px; stroke-dashoffset: 0;"></path>
+            <path id="path-middle" d="M20,32h30" style="stroke-dasharray: 30px, 30px; stroke-dashoffset: 0;"></path>
+            <path id="path-bottom" d="M19.9,46.98c0,0,18.8-18.85,29.95-29.95C68.89-1.92,66,38.78,50,38.78c-8,0-30,0-30,0" style="stroke-dasharray: 30px, 88.1px; stroke-dashoffset: -88px;"></path>
+          </svg>
