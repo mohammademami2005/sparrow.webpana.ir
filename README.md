@@ -26,9 +26,10 @@ A modern website template built with **HTML**, **CSS**, **Tailwind**, and **Java
 ---
 
 
-## 👨‍🏫 My Teacher
+## 👨‍🏫 Master
 
-- **Parsa Ghorbanian**
+-  [Parsa Ghorbanian](https://github.com/parsaGhorbanian)
+
 
 
 
