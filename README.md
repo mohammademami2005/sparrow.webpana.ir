@@ -28,6 +28,15 @@ A modern website template built with **HTML**, **CSS**, **Tailwind**, and **Java
 - Developed by [Parsa Ghorbanian](https://github.com/parsaGhorbanian)
 
 ---
+### ✨ Features
+
+- **Minimal Design**: Simple yet elegant design for optimal user experience.
+- **Responsive Layout**: Adapts seamlessly to all screen sizes.
+- **Tailwind Integration**: Powered by Tailwind for rapid styling.
+- **Modern Functionality**: Smooth navigation and user interactions.
+
+
+---
 
 ## 🖼️ Screenshot
 
@@ -37,13 +46,6 @@ The above image represents the layout and design of the Sparrow template, showca
 
 ---
 
-### ✨ Features
 
-- **Minimal Design**: Simple yet elegant design for optimal user experience.
-- **Responsive Layout**: Adapts seamlessly to all screen sizes.
-- **Tailwind Integration**: Powered by Tailwind for rapid styling.
-- **Modern Functionality**: Smooth navigation and user interactions.
-
----
 
 Feel free to contribute or report issues in the repository!
