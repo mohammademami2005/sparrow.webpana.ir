@@ -19,9 +19,9 @@ A modern website template built with **HTML**, **CSS**, **Tailwind**, and **Java
 
 ## 📱 Connect with me
 
-- Instagram: [https://www.instagram.com/mohammademami.dev?igsh=MW9oNGxzYzQxN3hwdA==](https://www.instagram.com/mohammademami.dev?igsh=MW9oNGxzYzQxN3hwdA==)
-- LinkedIn: [https://www.linkedin.com/in/mohammademami2005](https://www.linkedin.com/in/mohammademami2005)
-- Email: [mohammademamiwebdeveloper@gmail.com](mailto:mohammademamiwebdeveloper@gmail.com)
+- [Instagram](https://www.instagram.com/mohammademami.dev?igsh=MW9oNGxzYzQxN3hwdA==)
+-  [LinkedIn](https://www.linkedin.com/in/mohammademami2005)
+-  [Email](mailto:mohammademamiwebdeveloper@gmail.com)
 
 ---
 
