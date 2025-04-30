@@ -7,25 +7,33 @@ A modern website template built with **HTML**, **CSS**, **Tailwind**, and **Java
 ## 🌐 Demo
 
 - Live Demo: [http://sparrow.webpana.ir/](http://sparrow.webpana.ir/)
-- GitHub Demo: [https://lnkd.in/eh8etrgb](https://lnkd.in/eh8etrgb)
+- GitHub Demo: [https://mohammademami2005.github.io/sparrow.webpana.ir/](https://mohammademami2005.github.io/sparrow.webpana.ir/)
 
 ---
 
 ## 🛠️ Source Code
 
-- GitHub Repository: [https://lnkd.in/eJ_SQVUN](https://lnkd.in/eJ_SQVUN)
+- GitHub Repository: [https://github.com/mohammademami2005/sparrow.webpana.ir](https://github.com/mohammademami2005/sparrow.webpana.ir)
 
 ---
 
 ## 📱 Connect with Us
 
-- Instagram: [https://lnkd.in/eZnV7uQS](https://lnkd.in/eZnV7uQS)
+- Instagram: [https://www.instagram.com/mohammademami.dev?igsh=MW9oNGxzYzQxN3hwdA==](https://www.instagram.com/mohammademami.dev?igsh=MW9oNGxzYzQxN3hwdA==)
 
 ---
 
 ## 👨‍💻 Master
 
-- Developed by **Parsa Ghorbanian**
+- Developed by [Parsa Ghorbanian](https://github.com/parsaGhorbanian)
+
+---
+
+## 🖼️ Screenshot
+
+![Screenshot](https://github.com/user-attachments/assets/830be75e-d405-4446-9cc8-096fcc982493)
+
+The above image represents the layout and design of the Sparrow template, showcasing its clean aesthetic and user-friendly interface.
 
 ---
 
@@ -39,8 +47,3 @@ A modern website template built with **HTML**, **CSS**, **Tailwind**, and **Java
 ---
 
 Feel free to contribute or report issues in the repository!
-
-
-
-
-![Image](https://github.com/user-attachments/assets/830be75e-d405-4446-9cc8-096fcc982493)
