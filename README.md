@@ -1,4 +1,4 @@
-# Sparrow Template
+# Sparrow Template design
 
 A modern website template built with **HTML**, **CSS**, **Tailwind**, and **JavaScript**, inspired by the clean and elegant Sparrow template. Designed with a focus on minimalism, responsiveness, and smooth user experience.
 
@@ -17,9 +17,11 @@ A modern website template built with **HTML**, **CSS**, **Tailwind**, and **Java
 
 ---
 
-## 📱 Connect with Us
+## 📱 Connect with me
 
 - Instagram: [https://www.instagram.com/mohammademami.dev?igsh=MW9oNGxzYzQxN3hwdA==](https://www.instagram.com/mohammademami.dev?igsh=MW9oNGxzYzQxN3hwdA==)
+- LinkedIn: [https://www.linkedin.com/in/mohammademami2005](https://www.linkedin.com/in/mohammademami2005)
+- Email: [mohammademamiwebdeveloper@gmail.com](mailto:mohammademamiwebdeveloper@gmail.com)
 
 ---
 
@@ -35,7 +37,6 @@ A modern website template built with **HTML**, **CSS**, **Tailwind**, and **Java
 - **Tailwind Integration**: Powered by Tailwind for rapid styling.
 - **Modern Functionality**: Smooth navigation and user interactions.
 
-
 ---
 
 ## 🖼️ Screenshot
@@ -43,6 +44,7 @@ A modern website template built with **HTML**, **CSS**, **Tailwind**, and **Java
 ![Screenshot](https://github.com/user-attachments/assets/830be75e-d405-4446-9cc8-096fcc982493)
 
 The above image represents the layout and design of the Sparrow template, showcasing its clean aesthetic and user-friendly interface.
+To see more, visit Instagram or LinkedIn or one of the two demos provided.
 
 ---
 
