@@ -2,20 +2,20 @@
 
 A modern website template built with **HTML**, **CSS**, **Tailwind**, and **JavaScript**, inspired by the clean and elegant Sparrow template. Designed with a focus on minimalism, responsiveness, and smooth user experience.
 
----
+
 
 ## 🌐 Demo
 
 - Live Demo: [http://sparrow.webpana.ir/](http://sparrow.webpana.ir/)
 -  [GitHub Demo](https://mohammademami2005.github.io/sparrow.webpana.ir/)
 
----
+
 
 ## 🛠️ Source Code
 
 - [GitHub Repository](https://github.com/mohammademami2005/sparrow.webpana.ir)
 
----
+
 
 ## 📱 Connect with me
 
@@ -23,7 +23,7 @@ A modern website template built with **HTML**, **CSS**, **Tailwind**, and **Java
 -  [LinkedIn](https://www.linkedin.com/in/mohammademami2005)
 -  [Email](mailto:mohammademamiwebdeveloper@gmail.com)
 
----
+
 
 
 ## 👨‍🏫 Master
@@ -34,7 +34,7 @@ A modern website template built with **HTML**, **CSS**, **Tailwind**, and **Java
 
 
 
----
+
 ### ✨ Features
 
 - **Minimal Design**: Simple yet elegant design for optimal user experience.
@@ -42,7 +42,7 @@ A modern website template built with **HTML**, **CSS**, **Tailwind**, and **Java
 - **Tailwind Integration**: Powered by Tailwind for rapid styling.
 - **Modern Functionality**: Smooth navigation and user interactions.
 
----
+
 
 ## 🖼️ Screenshot
 
@@ -51,7 +51,7 @@ A modern website template built with **HTML**, **CSS**, **Tailwind**, and **Java
 The above image represents the layout and design of the Sparrow template, showcasing its clean aesthetic and user-friendly interface.
 To see more, visit Instagram or LinkedIn or one of the two demos provided.
 
----
+
 
 
 
